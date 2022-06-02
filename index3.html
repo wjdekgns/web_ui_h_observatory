@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대한천문대</title>
+    <!-- <script src="js/html5shiv.js"></script> -->
+    <!-- [endif] -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vegas.min.css">
+    <script src="javascript/jquery-1.12.3.js"></script>    
+    <!-- defer 속성은 script가 잠깐 지역 되도록 하여
+         HTML 구문 분석이 완료된 후 스크립트를 실행하도록 함-->
+    <script src="javascript/script.js" defer type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- 레이어 팝업창 영역 -->
+    <div id="layer">
+        <div class="layer_up">
+            <div class="uptitle">정ㅇㅇ님 10000원 할인 쿠폰 당첨!</div>
+            <div class="upbody">
+                정ㅇㅇ님 5000원 할인 쿠폰 당첨 되셨습니다!!! <br><br>
+
+                축하드립니다!! <br><br>
+                ※주의사항※<br>
+                2022.06.02 ~ 2022.06.25 까지 사용하시길 바랍니다.
+            </div>
+            <div class="btn">닫기</div>
+        </div>
+    </div> <!-- 레이어 팝업창 영역 끝 -->
+
+ <div class="wrapper">
+    <header>
+        <div class="top">
+            <div class="logo">
+                <a href="#"><img src="images/logo1.png" alt="로고 이미지"></a>
+            </div>
+            <nav class="menu">
+                <ul class="navi">
+                    <li>
+                        <a href="#">인기상품</a>
+                        <ul class="submenu">
+                            <li><a href="#">뮬 / 샌들</a></li>
+                            <li><a href="#">스웨이드부츠</a></li>
+                            <li><a href="#">펌프스</a></li>
+                            <li><a href="#">워커</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">부츠</a>
+                        <ul class="submenu">
+                            <li><a href="#">삭스부츠</a></li>
+                            <li><a href="#">앵글부츠</a></li>
+                            <li><a href="#">미들부츠</a></li>
+                            <li><a href="#">롱부츠</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">샌들</a>
+                        <ul class="submenu">
+                            <li><a href="#">플랫샌들</a></li>
+                            <li><a href="#">오픈뮬샌들</a></li>
+                            <li><a href="#">힐 샌들</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">워커</a>
+                        <ul class="submenu">
+                            <li><a href="#">통굽워커</a></li>
+                            <li><a href="#">롱워커부츠</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">슬리퍼</a>
+                        <ul class="submenu">
+                            <li><a href="#">뮬 슬리퍼</a></li>
+                            <li><a href="#">샌들</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="bodywrap">
+        <div class="imgslide">
+            <!-- <a href="#">
+                <img src="images/img1.jpg" alt="이미지1">
+                <span class="imgtext">대한천문대 홈페이지 새단장</span>                
+            </a>
+            <a href="#">
+                <img src="images/img2.jpg" alt="이미지2">
+                <span class="imgtext">이달의 별자리 특강</span>
+            </a>
+            <a href="#">
+                <img src="images/img3.jpg" alt="이미지3">
+                <span class="imgtext">별사진 공모전 개최</span>                
+            </a> -->
+        </div>
+        <div class="contents">
+            <ul class="tabmenu">
+                <li class="active"><a href="#">이벤트</a>
+                    <div class="notice">
+                        <ul>
+                            <li><a href="#">
+                              찜하기 누르고 10000원 쿠폰 받기
+                                <span>2022.06.01</span>
+                            </a></li>
+                            <li><a href="#">
+                                소식/알림 이벤트 2000원 할인!!
+                                <span>2022.06.01</span>
+                            </a></li>
+                            <li><a href="#">
+                                이달의 세일 상품 최대 40%!!
+                                <span>2022.06.01</span>
+                            </a></li>
+                            <li><a href="#">
+                                인스타로 공유하고 10% 할인 받기!!
+                                <span>2022.06.01</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">당첨자확인</a>
+                    <div class="notice">
+                        <ul>
+                            <li><a href="#">
+                                정ㅇㅇ님 10000원 할인 쿠폰 당첨!
+                                <span>2022.06.01</span>
+                            </a></li>
+                            <li><a href="#">
+                                김ㅇㅇ님 인스타공유 할인 쿠폰 당첨!
+                                <span>2022.06.01</span>
+                            </a></li>
+                            <li><a href="#">
+                                최ㅇㅇ님 10000원 할인 쿠폰 당첨!
+                                <span>2022.06.01</span>
+                            </a></li>
+                            <li><a href="#">
+                                박ㅇㅇ님 10000원 할인 쿠폰 당첨!
+                                <span>2022.06.01</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!-- otherwrap는 banner와 shortcut 묶어줌 -->
+            <div class="otherwrap">
+                <div class="banner">
+                    <a href="#">
+                        <img src="images/banner2.jpg" alt="배너 이미지">
+                        <h4 class="bntext">웨딩슈즈</h4>
+                    </a>
+                </div>
+                <div class="shortcut">
+                    <a href="#">
+                        <img src="images/banner3.jpg" alt="바로가기 이미지">
+                        <h4 class="sctext">인기상품</h4>
+                    </a>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <footer>
+       
+        <!-- .site는 .btmenu와 .copy를 묶어줌 -->
+        <div class="site">
+            <div class="btmenu">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>    
+            </div>
+            <div class="copy">
+                대표번호 : 02-1111-2222 문의전화 : 1600-0000
+            </div>
+        </div> <!-- .site 끝 -->
+    </footer>
+    </div>
+    
+    <script src="javascript/jquery-1.12.3.js"></script>
+    <script src="javascript/vegas.min.js"></script>
+    <script>
+        $(function(){
+            $('.imgslide').vegas({
+                slides:[
+                    {src:'images/banner.png',
+                    Image:{
+                        src:['images/banner.png'],
+                        loop:false,
+                        mute:true
+                    }
+                  }
+                ]
+            });
+            
+        });
+    </script>
+</body>
+</html>
